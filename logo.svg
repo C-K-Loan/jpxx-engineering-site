@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110" role="img" aria-label="JPXX Engineering GmbH">
+  <defs>
+    <style>
+      .globe-dark { fill: none; stroke: #0a2540; stroke-width: 5; }
+      .globe-accent { fill: none; stroke: #1a7fc9; stroke-width: 5; }
+      .wordmark { font-family: Inter, "Helvetica Neue", Arial, sans-serif; font-weight: 800; font-size: 48px; fill: #0a2540; letter-spacing: 1px; }
+      .tagline { font-family: Inter, "Helvetica Neue", Arial, sans-serif; font-weight: 500; font-size: 18px; fill: #475569; letter-spacing: 6px; }
+      .gmbh { fill: #1a7fc9; font-weight: 700; }
+      .divider { stroke: #1a7fc9; stroke-width: 2; }
+    </style>
+  </defs>
+  <!-- Globe mark -->
+  <g transform="translate(10,10)">
+    <circle class="globe-dark" cx="45" cy="45" r="38" />
+    <ellipse class="globe-dark" cx="45" cy="45" rx="38" ry="15" />
+    <path class="globe-accent" d="M 7 32 Q 45 10 83 32" />
+    <path class="globe-accent" d="M 7 58 Q 45 80 83 58" />
+    <line class="globe-dark" x1="45" y1="7" x2="45" y2="83" />
+  </g>
+  <!-- Wordmark -->
+  <text class="wordmark" x="115" y="55">JPXX</text>
+  <line class="divider" x1="117" y1="68" x2="405" y2="68" />
+  <text class="tagline" x="117" y="92">ENGINEERING <tspan class="gmbh">GmbH</tspan></text>
+</svg>
